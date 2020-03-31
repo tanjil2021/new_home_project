@@ -1,0 +1,297 @@
+* {
+	padding:0;
+	margin: 0:;
+}
+
+body {
+	 background-image: linear-gradient(to bottom, #9D9C9A,white);
+}
+
+header {
+    background-color: #FFFFFF ;
+    margin: 10 0 8 0;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}    
+
+.wrapper {
+    width: 88%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.logo img{
+	width: 100%;
+	margin-top: 8px;
+}
+nav {
+	width: 65%;
+	float: left;
+	padding-bottom: 10px;
+}
+.menu ul {
+	list-style: none;
+	float: right;
+}
+.menu ul li {
+    float: right;
+    margin-top: 15px;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	margin: 8px 14px 20px;
+	padding: 0px 10px;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.banner {
+    padding: 0;
+    margin: -16px;
+    background-image: url('../images/homeimage.jpg');
+    background-repeat: no-repeat;
+    background size: cover;
+    background position: center;
+    width: 100%;
+    height: 650px;
+    background-position: absolute;
+}
+.description {
+	margin-top: 24px;
+	margin-left: 15px;
+    padding-left: 31px;
+    padding-top: 60px;
+    width: 20%;
+    height: 250px;
+    background-color: #819ead;
+    opacity: 64%;
+} 
+}
+.header1 {
+    width:80%;
+    margin: 0 auto;
+}
+.header1 h1 {
+	font-family: 'Ubuntu', sans-serif;
+    color: antiquewhite;
+}
+.header2 {
+	width: 80%;
+	margin: 0 auto;
+}
+.header2 h3{
+	font-family: 'Ubuntu', sans-serif;
+	color: antiquewhite;
+}
+.para {
+	width: 50%;
+	margin: 0 auto;
+}
+.para1 p{
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	padding: 10%;
+}
+.collum1 {
+	width: 30%;
+    float: left;
+    display: inline-block;
+    height: 500px;
+    margin: 0 40px;
+}
+.headline1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.collum1_img {
+    width: 70%;
+    height: 150px;
+}
+#villa {
+	background-image: url('../images/villa.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.collum1_p {
+    width: 80%;
+}
+.collum1_p p {
+	font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    color: darkslategray;
+}
+.collum1_button button{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    background-color: #4A4A48;
+    width: 60px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    display: inline-block;
+    margin-left: 76px;
+    margin-top: 21px; 
+}
+.collum1_button button:hover {
+	color: #2D2C32;
+	transition: .5s;
+} 
+.collum2 {
+	width: 30%;
+    float: left;
+    display: inline-block;
+    height: 500px;
+    margin-right: 23px;
+}
+.headline2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.collum2_img {
+    width: 70%;
+    height: 150px;
+}
+#service{
+	background-image: url('../images/service.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.collum2_p {
+    width: 80%;
+}
+.collum2_p p{
+	font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    color: darkslategray;
+}
+.collum2_button button{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    background-color: #4A4A48;
+    width: 60px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    display: inline-block;
+    margin-left: 76px;
+    margin-top: 21px; 
+}
+.collum2_button button:hover {
+	color: #2D2C32;
+	transition: .5s;
+} 
+.collum3 {
+	width: 30%;
+    float: left;
+    display: inline-block;
+    height: 500px;
+}
+.headline3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.collum3_img {
+    width: 70%;
+    height: 150px;
+}
+#condos {
+	background-image: url('../images/condos.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.collum3_p {
+	width: 80%;
+}
+.collum3_p p{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    color: darkslategray;
+}
+.collum3_button button{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    background-color: #4A4A48;
+    width: 60px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    display: inline-block;
+    margin-left: 76px;
+    margin-top: 21px; 
+}
+ 
+.collum3_button button:hover {
+	color: #2D2C32;
+	transition: .5s;
+} 
+.copyright {
+    width: 100%;
+}
+.copyright p {
+	font-family: 'Ubuntu', sans-serif;
+    margin-left: 416px;
+}
+.web_tem {
+    width: 100%;
+}
+.web_tem p {
+	font-family: 'Ubuntu', sans-serif;
+    margin-left: 399px;
+}
+.icons {
+  width: 40%;
+  margin-left: 577px;
+}
+.icons ul {
+	list-style: none;
+}
+.facebook {
+	width: 25px;
+	height: 28px;
+	display: inline-block;
+}
+#fb {
+	background-image: url('../images/facebook.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.twitter {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+#twi {
+	background-image: url('../images/twitter.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.google {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+#ggl {
+	background-image: url('../images/googleplus.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
